@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(236, 209, 198);
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica;
+  color: rgb(83, 75, 75);
+}
+
+h1 {
+  font-family: Arial;
+  color: darkorange;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(167, 1, 78);
+}
+
+a:hover {
+  text-decoration: underline;
+}

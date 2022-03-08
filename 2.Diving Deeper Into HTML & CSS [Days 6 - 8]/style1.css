@@ -1,0 +1,67 @@
+header {
+  margin: 62px;
+}
+
+body {
+  background-color: rgb(236, 209, 198);
+  text-align: center;
+}
+
+header p {
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: Helvetica;
+  color: rgb(83, 75, 75);
+}
+
+h1 {
+  font-family: Arial;
+  color: rgb(71, 62, 62);
+  font-size: 50px;
+  margin: 12px;
+}
+
+a {
+  padding: 12px;
+  text-decoration: none;
+  background-color: rgb(167, 1, 78);
+  color: white;
+  border-radius: 4px;
+  font-size: 25px;
+}
+
+a:hover {
+  background-color: rgb(180, 12, 90);
+  text-decoration: none;
+}
+
+ol {
+  width: 500;
+  margin: 36px auto 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background-color: rgb(250, 136, 136);
+  margin: 32px 500px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: rgb(64, 32, 38);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main p {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+}
+
+.highlight-goal {
+  background-color: rgb(248, 107, 107);
+}

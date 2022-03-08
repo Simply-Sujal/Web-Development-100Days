@@ -1,0 +1,36 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+}
+
+#page-logo a {
+  padding: 10px;
+  font-family: "Roboto";
+  color: rgb(245, 243, 160);
+  font-size: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header li {
+  margin: 20px;
+}

@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: rgb(236, 209, 198);
+  margin: 50px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+h1 {
+  font-family: Arial;
+  color: darkorange;
+  text-align: center;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(83, 75, 75);
+}
+
+#today-challenge {
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 52px;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  text-decoration: underline;
+}
