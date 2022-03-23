@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <main>
+      <form action="/" method="GET">
+        <section>
+          <h2>How can we help you ?</h2>
+          <ul>
+            <li>
+              <label for="person-name">Your Name</label>
+              <input type="text" name="user-name" id="person-name" />
+            </li>
+
+            <li>
+              <label for="person-email">Your E-mail Address</label>
+              <input type="email" name="user-email" id="person-email" />
+            </li>
+
+            <li>
+              <label for="person-number">Your Phone Number</label>
+              <input type="number" name="user-number" id="person-number" />
+            </li>
+
+            <li>
+              <label for="person-message">Your Message</label>
+              <textarea name="message" id="person-message"></textarea>
+            </li>
+
+            <li>
+              <label for="person-reach">How did you find us ?</label>
+              <select id="person-reach" name="person-reach">
+                <option value="Websites">Websites</option>
+                <option value="Web Search">Web Search</option>
+                <option value="facebook">facebook</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Linkedin">Linkedin</option>
+              </select>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How should we reply ?</h2>
+          <ul>
+            <li class="form-control-inline">
+              <input type="radio" name="verify" id="call-me" value="call" />
+              <label for="call-me">Call me</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input type="radio" name="verify" id="email-me" value="email" />
+              <label for="call-me">Send me an Email</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input type="radio" name="verify" id="reply-me" value="reply" />
+              <label for="call-me">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+
+        <!-- <section>
+          <input type="checkbox" id="Accept-Terms" name="Terms" value="Terms" />
+          <label for="contact-email">Accept Terms</label>
+        </section> -->
+
+        <section id="form-actions">
+          <button type="reset" class="btn-empty">Clear</button>
+          <button type="submit" class="btn-filled">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

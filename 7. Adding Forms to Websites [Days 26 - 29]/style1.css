@@ -1,0 +1,110 @@
+body {
+  background-color: #d9f2f5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 40rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+label {
+  color: rgb(34, 43, 61);
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  display: block;
+  /* margin-top: 0.5rem; */
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: rgb(61, 58, 58);
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(217, 227, 247);
+  /* color: rgb(87, 6, 179);
+  border-color: rgb(113, 7, 235); */
+}
+
+button {
+  /* display: flex; */
+  font: inherit; /*normal 1rem "Roboto", sans-serif*/
+  /* background-color: rgb(179, 233, 241); */
+  /* color: white; */
+  border: 1px solid rgb(51, 67, 100);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#form-actions {
+  text-align: right;
+}
+
+.btn-filled {
+  background-color: rgb(51, 67, 100);
+  color: white;
+}
+
+.btn-empty {
+  background-color: transparent;
+  color: rgb(51, 67, 100);
+}
+
+.btn-filled:hover {
+  background-color: rgb(69, 89, 129);
+  border-color: rgb(69, 89, 129);
+}
+
+.btn-empty:hover {
+  background-color: rgb(208, 215, 230);
+}
+
+button:hover {
+  background-color: rgb(109, 13, 199);
+}
+
+.form-control-inline {
+  display: flex;
+}
+
+.form-control-inline input {
+  width: auto;
+  margin-right: 0.5rem;
+}
