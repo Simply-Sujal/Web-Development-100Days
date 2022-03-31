@@ -1,29 +1,21 @@
-// document.body.children[1].children[0].href = "https://google.com";
+let paragraphElement = document.querySelector("p");
+// let paragraphElement = document.body.firstElementChild;
 
-// console.dir(document);
-// alert();
-// window.alert();
+function changeParagraphText(event) {
+  paragraphElement.textContent = "Clicked";
+  console.log("Paragraph Clicked");
+  console.log(event);
+}
 
-// let anchorElement = document.getElementById("external-link");
-// anchorElement.href = "https://google.com";
+paragraphElement.addEventListener("click", changeParagraphText);
 
-// anchorElement = document.querySelector("p a"); // p a{color:red}
-// anchorElement.href = "https://facebook.com";
+let inputElement = document.querySelector("input");
 
-// ------------- Practise -----------------
-// 1. Select the <h1> element by "Drilling into the DOM" and save it in a variable with a name of your choise
-// let h1Element = document.body.firstElementChild;
-// let h1Element = document.body.children[0];
-// console.dir(h1Element);
-
-// console.dir(h1Element.parentElement);
-
-// console.dir(h1Element.nextElementSibling);
-
-// h1Element = document.getElementById("first-title");
-// console.dir(h1Element);
-
-// let highlightedParagraph = document.querySelector(".highlighted-paragraph");
-// console.dir(highlightedParagraph);
-
-// highlightedParagraph.textContent = "This is Changed by Sujal";
+function retrieveUserInput() {
+  //   let enteredText = inputElement.value;
+  let enteredText = event.target.value;
+  //   let enteredText = event.data; => This is different!
+  console.log(enteredText);
+  console.log(event);
+}
+inputElement.addEventListener("input", retrieveUserInput);
